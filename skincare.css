@@ -96,4 +96,10 @@ footer { background:#333; color:#fff; padding:30px 50px; text-align:center; }
     flex-direction:column;
   }
 
+
+}
+@media(max-width:480px){
+  .hero-text h1 { font-size:32px; }
+  .hero-text p { font-size:16px; }
+  .products h2, .testimonials h2, .newsletter h2, .contact h2 { font-size:28px; }
 }
